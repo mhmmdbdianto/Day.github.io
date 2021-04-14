@@ -152,6 +152,7 @@ nav{
 	text-decoration: none;
 	color:#F6F6F6;
 }
+
 .cover{
 	flex:2;
 	height: 65vh;
@@ -260,14 +261,18 @@ nav{
 	color: #C7FFD8;
 }
 
-.text_contact p{
+.text_contact p,form{
 	padding-top: 5rem;
 	font-size:1.4rem;
 	line-height: 3rem;
 	color: #C7FFD8;
 	padding-bottom:2rem;
-	width: 80%;
+	width: 550px;
 }
+
+
+
+
 
 .cta-contact{
 	background-color: #F6F6F6;
@@ -278,9 +283,7 @@ nav{
 	border-radius: 2.5rem;
 	margin: 10px 0 0 0;
 }
-.cta-contact a{
-	display: block;
-	width: 100%;
+.cta-contact{
 	text-decoration: none;
 	font-weight: bold;
 	color:#008891;
