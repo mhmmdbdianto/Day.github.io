@@ -80,7 +80,7 @@ nav{
 	-ms-overflow-style: none;
 }
 .container{
-	width: 300vw;
+	width: 400vw;
 	flex-direction: row;
 	display: flex;
 }
@@ -178,6 +178,58 @@ nav{
 	bottom: 0;
 	z-index: -1;
 }
+.container .tentang{
+	width: 100vw;
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items:center;
+	text-align: center;
+}
+
+.img_title{
+	width: auto;
+	height: 40%;
+	
+}
+.img_title img{
+	width: 250px;
+}
+
+
+
+.text-tentang h1{
+	padding-top: 0.5rem;
+	font-weight:700;
+	font-size:5.4rem;
+	line-height: 7rem;
+	color: white;
+}
+
+.text-tentang p{
+	padding-top: 1rem;
+	margin-left: 25rem;
+	font-size:1.4rem;
+	line-height: 2rem;
+	width: 60%;
+	color: white;
+}
+
+.semi_circle{
+	position: absolute;
+	width: 100vw;
+	height: 75vh;
+	top: 0;
+	z-index: -1;
+}
+
+.blobs_4{
+	position: absolute;
+	bottom: 0;
+	z-index: -1;
+	left: 145%;
+	width: 20rem;
+}
 
 .container .hobby{
 	width: 100vw;
@@ -225,21 +277,21 @@ nav{
 	position: absolute;
 	bottom: 0;
 	z-index: -1;
-	left: 145%;
+	left: 245%;
 	width: 20rem;
 }
 .blobs_2{
 	position: absolute;
 	bottom: 0;
 	z-index: -1;
-	left: 179%;
+	left: 279%;
 	width: 30rem;
 }
 .blobs_3{
 	position: absolute;
 	top: 5rem;
 	z-index: -1;
-	left: 160%;
+	left: 260%;
 	width: 20rem;
 }
 
@@ -307,7 +359,7 @@ nav{
 	position: absolute;
 	width: 70vw;
 	height: 100vh;
-	right: -200%;
+	right: -300%;
 	object-fit: fill;
 
 }
